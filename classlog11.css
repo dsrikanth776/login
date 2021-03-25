@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(classlog11.jpg);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    left: 60%;
+    transform: translate(50% ,50%);
+    background-color: rgb(12, 14, 14);
+    text-align: center;
+}
+.box h1{
+    color: floralwhite;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(233, 153, 153);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: seashell;
+    border-radius: 25px;
+    transition: 0.25px;
+}
+.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(233, 153, 153);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(236, 226, 219);
+    border-radius: 25px;
+    transition: 0.25px; 
+}
+
+.box input[type="text"]:focus
+{
+    width: 270px;
+    border-color: springgreen;
+}
+.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: rgb(24, 224, 124);
+
+}
+.box input[type=" submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(233, 153, 153);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(218, 209, 203);
+    border-radius: 25px;
+    transition: 0.25px; 
+}
+.box input [type="submit"]:hover 
+{
+    background-color: tomato;
+
+}
